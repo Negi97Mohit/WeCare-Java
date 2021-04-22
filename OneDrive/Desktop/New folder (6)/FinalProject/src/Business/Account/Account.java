@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package Business.UserAccount;
+package Business.Account;
 
 import Business.Employee.Employee;
 import Business.Role.Role;
@@ -12,7 +12,7 @@ import Business.WorkQueue.WorkQueue;
  *
  * @author raunak
  */
-public class UserAccount {
+public class Account {
     
     private String username;
     private String password;
@@ -20,7 +20,7 @@ public class UserAccount {
     private Role role;
     private WorkQueue workQueue;
 
-    public UserAccount() {
+    public Account() {
         workQueue = new WorkQueue();
     }
     

@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package Business.UserAccount;
+package Business.Account;
 
 import Business.Employee.Employee;
 import Business.Role.Role;
@@ -12,28 +12,28 @@ import java.util.ArrayList;
  *
  * @author raunak
  */
-public class UserAccountDirectory {
+public class AccountDirectory {
     
-    private ArrayList<UserAccount> userAccountList;
+    private ArrayList<Account> userAccountList;
 
-    public UserAccountDirectory() {
+    public AccountDirectory() {
         userAccountList = new ArrayList();
     }
 
-    public ArrayList<UserAccount> getUserAccountList() {
+    public ArrayList<Account> getUserAccountList() {
         return userAccountList;
     }
     
-    public UserAccount authenticateUser(String username, String password){
-        for (UserAccount ua : userAccountList)
+    public Account authenticateUser(String username, String password){
+        for (Account ua : userAccountList)
             if (ua.getUsername().equals(username) && ua.getPassword().equals(password)){
                 return ua;
             }
         return null;
     }
     
-    public UserAccount createUserAccount(String username, String password, Employee employee, Role role){
-        UserAccount userAccount = new UserAccount();
+    public Account createUserAccount(String username, String password, Employee employee, Role role){
+        Account userAccount = new Account();
         userAccount.setUsername(username);
         userAccount.setPassword(password);
         userAccount.setEmployee(employee);
@@ -43,7 +43,7 @@ public class UserAccountDirectory {
     }
     
     public boolean checkIfUsernameIsUnique(String username){
-        for (UserAccount ua : userAccountList){
+        for (Account ua : userAccountList){
             if (ua.getUsername().equals(username))
                 return false;
         }

@@ -2,13 +2,13 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package ui.DoctorRole;
+package userInterface.DoctorRole;
 
 import Business.EcoSystem;
 import Business.Enterprise.Enterprise;
 import Business.Organization.LabOrganization;
 import Business.Organization.Organization;
-import Business.UserAccount.UserAccount;
+import Business.Account.Account;
 import Business.WorkQueue.LabTestWorkRequest;
 import java.awt.CardLayout;
 import java.awt.Component;
@@ -24,11 +24,11 @@ public class RequestLabTestJPanel extends javax.swing.JPanel {
 
     private JPanel userProcessContainer;
     private Enterprise enterprise;
-    private UserAccount userAccount;
+    private Account userAccount;
     /**
      * Creates new form RequestLabTestJPanel
      */
-    public RequestLabTestJPanel(JPanel userProcessContainer, UserAccount account, Enterprise enterprise) {
+    public RequestLabTestJPanel(JPanel userProcessContainer, Account account, Enterprise enterprise) {
         initComponents();
         
         this.userProcessContainer = userProcessContainer;

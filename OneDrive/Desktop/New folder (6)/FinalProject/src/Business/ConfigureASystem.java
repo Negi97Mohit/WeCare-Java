@@ -2,7 +2,7 @@ package Business;
 
 import Business.Employee.Employee;
 import Business.Role.SystemAdminRole;
-import Business.UserAccount.UserAccount;
+import Business.Account.Account;
 
 /**
  *
@@ -23,7 +23,7 @@ public class ConfigureASystem {
         
         Employee employee = system.getEmployeeDirectory().createEmployee("sysadmin");
         
-        UserAccount ua = system.getUserAccountDirectory().createUserAccount("sysadmin", "sysadmin", employee, new SystemAdminRole());
+        Account ua = system.getUserAccountDirectory().createUserAccount("sysadmin", "sysadmin", employee, new SystemAdminRole());
         
         return system;
     }
