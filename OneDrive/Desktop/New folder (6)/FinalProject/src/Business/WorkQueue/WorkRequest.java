@@ -13,10 +13,11 @@ import java.util.Date;
  */
 public abstract class WorkRequest {
 
-    private String message;
+     private String message;
     private Account sender;
     private Account receiver;
     private String status;
+    private String fileDn;
     private Date requestDate;
     private Date resolveDate;
     
@@ -27,7 +28,16 @@ public abstract class WorkRequest {
     public String getMessage() {
         return message;
     }
+    
+    
+    public String getFileDn() {
+        return fileDn;
+    }
 
+    public void setFileDn(String fileDn) {
+        this.fileDn = fileDn;
+    }
+    
     public void setMessage(String message) {
         this.message = message;
     }
@@ -47,6 +57,8 @@ public abstract class WorkRequest {
     public void setReceiver(Account receiver) {
         this.receiver = receiver;
     }
+
+    
 
     public String getStatus() {
         return status;
@@ -70,5 +82,9 @@ public abstract class WorkRequest {
 
     public void setResolveDate(Date resolveDate) {
         this.resolveDate = resolveDate;
+    }
+    @Override
+    public String toString(){
+        return this.message;
     }
 }

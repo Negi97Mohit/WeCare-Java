@@ -16,7 +16,7 @@ import javax.swing.JPanel;
  */
 public abstract class Role {
     
-    public enum RoleType{
+     public enum RoleType{
         Admin("Admin"),
         Doctor("Doctor"),
         LabAssistant("Lab Assistant");
@@ -44,7 +44,7 @@ public abstract class Role {
 
     @Override
     public String toString() {
-        return this.getClass().getName();
+        return this.getClass().getName().substring(14);
     }
     
     
