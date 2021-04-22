@@ -99,11 +99,11 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
         jLabel2 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(0, 153, 153));
+        setBackground(new java.awt.Color(255, 255, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        enterpriseJTable.setBackground(new java.awt.Color(204, 255, 204));
-        enterpriseJTable.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
+        enterpriseJTable.setBackground(new java.awt.Color(255, 204, 204));
+        enterpriseJTable.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         enterpriseJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null},
@@ -125,71 +125,74 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(enterpriseJTable);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 50, 590, 95));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 125, 590, 150));
 
-        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
-        jLabel1.setText("City");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(39, 203, -1, -1));
+        jLabel1.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        jLabel1.setText("City:");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 320, -1, -1));
 
-        networkJComboBox.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
+        networkJComboBox.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         networkJComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         networkJComboBox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 networkJComboBoxActionPerformed(evt);
             }
         });
-        add(networkJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(176, 200, 270, -1));
+        add(networkJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 310, 270, -1));
 
-        jLabel3.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
-        jLabel3.setText("Enterprise");
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(39, 263, -1, -1));
+        jLabel3.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        jLabel3.setText("Enterprise:");
+        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 360, -1, -1));
 
-        enterpriseJComboBox.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
+        enterpriseJComboBox.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         enterpriseJComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         enterpriseJComboBox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 enterpriseJComboBoxActionPerformed(evt);
             }
         });
-        add(enterpriseJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(176, 260, 270, -1));
+        add(enterpriseJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 350, 270, -1));
 
-        submitJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userInterface/Images/IMAGES/submitbutton_succeed.gif"))); // NOI18N
+        submitJButton.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        submitJButton.setText("SUBMIT");
         submitJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 submitJButtonActionPerformed(evt);
             }
         });
-        add(submitJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 440, 140, 40));
+        add(submitJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 500, 140, 30));
 
-        jLabel4.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
-        jLabel4.setText("Password");
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 357, -1, -1));
+        jLabel4.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        jLabel4.setText("Password:");
+        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 440, 70, -1));
 
-        emailJTextField.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
-        add(emailJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(176, 310, 270, -1));
+        emailJTextField.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        add(emailJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 400, 270, -1));
 
-        jLabel5.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
-        jLabel5.setText("UserName");
-        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 310, -1, -1));
+        jLabel5.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        jLabel5.setText("UserName:");
+        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 400, -1, -1));
 
-        passwordJPasswordField.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
-        add(passwordJPasswordField, new org.netbeans.lib.awtextra.AbsoluteConstraints(176, 354, 270, -1));
+        passwordJPasswordField.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        add(passwordJPasswordField, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 440, 270, -1));
 
-        backJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userInterface/Images/IMAGES/arrow-sign-icon-back-button-navigation-symbol_gg69834698 (1).jpg"))); // NOI18N
+        backJButton.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        backJButton.setText("BACK");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 backJButtonActionPerformed(evt);
             }
         });
-        add(backJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 440, 140, 50));
+        add(backJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 30, 100, 30));
 
-        jLabel2.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
-        jLabel2.setText("Please give your Email Address");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 310, 320, -1));
+        jLabel2.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        jLabel2.setText("username: xyz@gmail.com");
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 400, 210, -1));
 
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userInterface/Images/IMAGES/healing.png"))); // NOI18N
-        jLabel6.setPreferredSize(new java.awt.Dimension(800, 500));
-        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 400, 770, 340));
+        jLabel6.setFont(new java.awt.Font("SansSerif", 0, 36)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(153, 0, 0));
+        jLabel6.setText("Manage Enterprise");
+        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 30, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void networkJComboBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_networkJComboBoxActionPerformed

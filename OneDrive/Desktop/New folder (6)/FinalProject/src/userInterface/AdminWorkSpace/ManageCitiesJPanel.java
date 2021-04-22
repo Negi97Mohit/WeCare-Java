@@ -64,16 +64,16 @@ public class ManageCitiesJPanel extends javax.swing.JPanel {
         backJButton = new javax.swing.JButton();
         cityName = new javax.swing.JLabel();
         submitJButton = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(0, 153, 153));
+        setBackground(new java.awt.Color(255, 255, 255));
         setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         setForeground(new java.awt.Color(204, 255, 204));
         setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        networkJTable.setBackground(new java.awt.Color(204, 255, 204));
-        networkJTable.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
+        networkJTable.setBackground(new java.awt.Color(255, 204, 204));
+        networkJTable.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         networkJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null},
@@ -82,7 +82,7 @@ public class ManageCitiesJPanel extends javax.swing.JPanel {
                 {null}
             },
             new String [] {
-                "Name"
+                "City Name"
             }
         ) {
             Class[] types = new Class [] {
@@ -102,33 +102,35 @@ public class ManageCitiesJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(networkJTable);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 50, 506, 148));
-        add(nameJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(162, 255, 110, 30));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 118, 506, 200));
+        add(nameJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 370, 110, 30));
 
-        backJButton.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
-        backJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userInterface/Images/IMAGES/arrow-sign-icon-back-button-navigation-symbol_gg69834698 (1).jpg"))); // NOI18N
+        backJButton.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        backJButton.setText("BACK");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 backJButtonActionPerformed(evt);
             }
         });
-        add(backJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 330, 190, 50));
+        add(backJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 20, 110, 30));
 
-        cityName.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
-        cityName.setText("City Name");
-        add(cityName, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 258, -1, -1));
+        cityName.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        cityName.setText("City Name:");
+        add(cityName, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 370, -1, -1));
 
-        submitJButton.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
-        submitJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userInterface/Images/IMAGES/submitbutton_succeed.gif"))); // NOI18N
+        submitJButton.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        submitJButton.setText("SUBMIT");
         submitJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 submitJButtonActionPerformed(evt);
             }
         });
-        add(submitJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 330, 200, 50));
+        add(submitJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 430, 180, 30));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userInterface/Images/IMAGES/healing.png"))); // NOI18N
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 300, 900, -1));
+        jLabel1.setFont(new java.awt.Font("SansSerif", 0, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(153, 0, 0));
+        jLabel1.setText("Add City");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 50, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void backJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backJButtonActionPerformed
@@ -179,7 +181,7 @@ public class ManageCitiesJPanel extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton backJButton;
     private javax.swing.JLabel cityName;
-    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextField nameJTextField;
     private javax.swing.JTable networkJTable;

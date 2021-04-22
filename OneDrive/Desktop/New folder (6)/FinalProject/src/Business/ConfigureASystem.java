@@ -22,10 +22,7 @@ public class ConfigureASystem {
         //have some employees 
         //create user account
         
-        AwarenessCampEnterprise awarenessCampEnterprise=new AwarenessCampEnterprise("NGO");
-        DoctorOrganization doctorOrganization=new DoctorOrganization();
-        Network network = system.createAndAddNetwork();
-        
+
         Employee employee = system.getEmployeeDirectory().createEmployee("sysadmin");
         
         Account ua = system.getUserAccountDirectory().createUserAccount("sysadmin", "sysadmin", employee, new SystemAdminRole());

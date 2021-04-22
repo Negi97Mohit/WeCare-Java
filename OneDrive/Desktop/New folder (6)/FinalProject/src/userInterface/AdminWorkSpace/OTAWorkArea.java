@@ -107,6 +107,8 @@ public class OTAWorkArea extends javax.swing.JPanel {
         lblSelectedNode = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(255, 255, 255));
         setForeground(new java.awt.Color(255, 255, 255));
@@ -114,8 +116,9 @@ public class OTAWorkArea extends javax.swing.JPanel {
 
         jSplitPane2.setDividerLocation(200);
 
-        jTree.setBackground(new java.awt.Color(0, 204, 204));
-        jTree.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
+        jTree.setBackground(new java.awt.Color(204, 0, 0));
+        jTree.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        jTree.setForeground(new java.awt.Color(255, 255, 255));
         javax.swing.tree.DefaultMutableTreeNode treeNode1 = new javax.swing.tree.DefaultMutableTreeNode("Ecosystem");
         javax.swing.tree.DefaultMutableTreeNode treeNode2 = new javax.swing.tree.DefaultMutableTreeNode("colors");
         javax.swing.tree.DefaultMutableTreeNode treeNode3 = new javax.swing.tree.DefaultMutableTreeNode("blue");
@@ -159,20 +162,20 @@ public class OTAWorkArea extends javax.swing.JPanel {
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 104, Short.MAX_VALUE)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 200, Short.MAX_VALUE)
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 1128, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 555, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 831, Short.MAX_VALUE))
         );
 
         jSplitPane2.setLeftComponent(jPanel3);
 
-        jPanel4.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel4.setBackground(new java.awt.Color(255, 255, 255));
 
-        btnManageEnterprise.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
+        btnManageEnterprise.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         btnManageEnterprise.setText("Manage Enterprise");
         btnManageEnterprise.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -180,7 +183,7 @@ public class OTAWorkArea extends javax.swing.JPanel {
             }
         });
 
-        btnManageAdmin.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
+        btnManageAdmin.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         btnManageAdmin.setText("Manage Enterprise Admin");
         btnManageAdmin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -188,7 +191,7 @@ public class OTAWorkArea extends javax.swing.JPanel {
             }
         });
 
-        btnManageNetwork.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
+        btnManageNetwork.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         btnManageNetwork.setText("Manage Network");
         btnManageNetwork.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -196,7 +199,7 @@ public class OTAWorkArea extends javax.swing.JPanel {
             }
         });
 
-        jButton1.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
+        jButton1.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         jButton1.setText("Manage Donors & Recipients");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -204,13 +207,13 @@ public class OTAWorkArea extends javax.swing.JPanel {
             }
         });
 
-        lblSelectedNode.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
+        lblSelectedNode.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         lblSelectedNode.setText("<value>");
 
-        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         jLabel1.setText("Selected Node:");
 
-        jButton2.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
+        jButton2.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         jButton2.setText("Analysis");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -218,45 +221,64 @@ public class OTAWorkArea extends javax.swing.JPanel {
             }
         });
 
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/sysadmin.jpg"))); // NOI18N
+
+        jLabel3.setFont(new java.awt.Font("SansSerif", 0, 24)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(153, 0, 0));
+        jLabel3.setText("SYSTEM ADMIN WORK AREA");
+
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addContainerGap()
+                .addComponent(btnManageNetwork, javax.swing.GroupLayout.PREFERRED_SIZE, 217, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addGap(69, 69, 69)
+                        .addContainerGap()
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(btnManageEnterprise, javax.swing.GroupLayout.PREFERRED_SIZE, 217, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnManageAdmin, javax.swing.GroupLayout.PREFERRED_SIZE, 217, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jButton1)
-                            .addComponent(btnManageNetwork)
-                            .addComponent(btnManageAdmin)
-                            .addComponent(btnManageEnterprise)
-                            .addComponent(jButton2)))
+                            .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 217, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 58, Short.MAX_VALUE)
+                        .addComponent(jLabel2))
                     .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addGap(292, 292, 292)
+                        .addGap(34, 34, 34)
                         .addComponent(jLabel1)
                         .addGap(37, 37, 37)
-                        .addComponent(lblSelectedNode)))
-                .addContainerGap())
+                        .addComponent(lblSelectedNode)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel3)))
+                .addGap(26, 26, 26))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGap(39, 39, 39)
+                .addGap(24, 24, 24)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblSelectedNode)
-                    .addComponent(jLabel1))
-                .addGap(38, 38, 38)
+                    .addComponent(jLabel1)
+                    .addComponent(jLabel3))
+                .addGap(80, 80, 80)
                 .addComponent(btnManageNetwork)
-                .addGap(97, 97, 97)
-                .addComponent(btnManageEnterprise)
-                .addGap(98, 98, 98)
-                .addComponent(btnManageAdmin)
-                .addGap(103, 103, 103)
-                .addComponent(jButton1)
-                .addGap(105, 105, 105)
-                .addComponent(jButton2)
-                .addContainerGap())
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addGap(48, 48, 48)
+                        .addComponent(btnManageEnterprise)
+                        .addGap(55, 55, 55)
+                        .addComponent(btnManageAdmin)
+                        .addGap(46, 46, 46)
+                        .addComponent(jButton1)
+                        .addGap(54, 54, 54)
+                        .addComponent(jButton2))
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addGap(22, 22, 22)
+                        .addComponent(jLabel2)))
+                .addContainerGap(922, Short.MAX_VALUE))
         );
 
         jSplitPane2.setRightComponent(jPanel4);
@@ -272,71 +294,19 @@ public class OTAWorkArea extends javax.swing.JPanel {
         }
     }//GEN-LAST:event_jTreeValueChanged
 
-    private void btnManageNetworkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnManageNetworkActionPerformed
-        ManageCitiesJPanel manageCitiesJPanel = new ManageCitiesJPanel(rightPanel, system);
-        rightPanel.add("manageCitiesJPanel", manageCitiesJPanel);
-        CardLayout layout = (CardLayout) rightPanel.getLayout();
-        layout.next(rightPanel);
-    }//GEN-LAST:event_btnManageNetworkActionPerformed
-
-    private void btnManageEnterpriseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnManageEnterpriseActionPerformed
-        if(system.getNetworkList().size() == 0){
-            JOptionPane.showMessageDialog(null, "There are no networks. Create Network first.");
-            return;
-        }
-        ManageEnterpriseJPanel manageEnterprise = new ManageEnterpriseJPanel(rightPanel, system);
-        rightPanel.add("manageEnterprise", manageEnterprise);
-        CardLayout layout = (CardLayout) rightPanel.getLayout();
-        layout.next(rightPanel);
-    }//GEN-LAST:event_btnManageEnterpriseActionPerformed
-
-    private void btnManageAdminActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnManageAdminActionPerformed
-        
-        int size = system.getNetworkList().size();
-        boolean flag = false;
-        
-        if(size == 0){
-            JOptionPane.showMessageDialog(null, "There are no networks. Create Network first.");
-            return;
-        } else if ( size > 0){
-            for(int i = 0; i < size; i++){
-                if(system.getNetworkList().get(i).getEnterpriseDirectory().getEnterpriseList().size() > 0)
-                    flag = true;
-            }
-        }
-        if(flag){
-            ManageEnterpriseAdminJPanel manageEnterpriseAdmin = new ManageEnterpriseAdminJPanel(rightPanel, system);
-            rightPanel.add("manageEnterpriseAdmin", manageEnterpriseAdmin);
-            CardLayout layout = (CardLayout) rightPanel.getLayout();
-            layout.next(rightPanel);
-        }else {
-            JOptionPane.showMessageDialog(null, "There is no enterprise. Create enterprise first.");
-        }
-        
-    }//GEN-LAST:event_btnManageAdminActionPerformed
-
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-
-        ManageOrganMatchJPanel organMatch = new ManageOrganMatchJPanel(rightPanel, system);
-        rightPanel.add("organMatch", organMatch);
-        CardLayout layout = (CardLayout) rightPanel.getLayout();
-        layout.next(rightPanel);
-        
-    }//GEN-LAST:event_jButton1ActionPerformed
-
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
         int count = 0;
         for (Network network : system.getNetworkList()) {
             for (Enterprise enterprise : network.getEnterpriseDirectory().getEnterpriseList()) {
-                for (Organization or : enterprise.getOrganizationDirectory().getOrganizationList()) 
-                    if (or.getName().equalsIgnoreCase("Visitor Organization")) {
-                        for (Donor donor : or.getDonorDirectory().getDonorList()) {
-                            
-                            count++;
-                        }
+                for (Organization or : enterprise.getOrganizationDirectory().getOrganizationList())
+                if (or.getName().equalsIgnoreCase("Visitor Organization")) {
+                    for (Donor donor : or.getDonorDirectory().getDonorList()) {
+
+                        count++;
                     }
-                    }
+                }
+            }
         }
         int count1=0;
         if(system != null){
@@ -345,8 +315,7 @@ public class OTAWorkArea extends javax.swing.JPanel {
                 count1++;
             }
         }
-            
-        
+
         Frame frame = new Frame();
 
         DefaultPieDataset pieDataSet = new DefaultPieDataset();
@@ -361,11 +330,60 @@ public class OTAWorkArea extends javax.swing.JPanel {
         frame.setVisible(true);
         cpp.setSize(600, 600);
         cpp.setVisible(true);
-                    
-                
-                    
-        
+
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+
+        ManageOrganMatchJPanel organMatch = new ManageOrganMatchJPanel(rightPanel, system);
+        rightPanel.add("organMatch", organMatch);
+        CardLayout layout = (CardLayout) rightPanel.getLayout();
+        layout.next(rightPanel);
+
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void btnManageNetworkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnManageNetworkActionPerformed
+        ManageCitiesJPanel manageCitiesJPanel = new ManageCitiesJPanel(rightPanel, system);
+        rightPanel.add("manageCitiesJPanel", manageCitiesJPanel);
+        CardLayout layout = (CardLayout) rightPanel.getLayout();
+        layout.next(rightPanel);
+    }//GEN-LAST:event_btnManageNetworkActionPerformed
+
+    private void btnManageAdminActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnManageAdminActionPerformed
+
+        int size = system.getNetworkList().size();
+        boolean flag = false;
+
+        if(size == 0){
+            JOptionPane.showMessageDialog(null, "There are no networks. Create Network first.");
+            return;
+        } else if ( size > 0){
+            for(int i = 0; i < size; i++){
+                if(system.getNetworkList().get(i).getEnterpriseDirectory().getEnterpriseList().size() > 0)
+                flag = true;
+            }
+        }
+        if(flag){
+            ManageEnterpriseAdminJPanel manageEnterpriseAdmin = new ManageEnterpriseAdminJPanel(rightPanel, system);
+            rightPanel.add("manageEnterpriseAdmin", manageEnterpriseAdmin);
+            CardLayout layout = (CardLayout) rightPanel.getLayout();
+            layout.next(rightPanel);
+        }else {
+            JOptionPane.showMessageDialog(null, "There is no enterprise. Create enterprise first.");
+        }
+
+    }//GEN-LAST:event_btnManageAdminActionPerformed
+
+    private void btnManageEnterpriseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnManageEnterpriseActionPerformed
+        if(system.getNetworkList().size() == 0){
+            JOptionPane.showMessageDialog(null, "There are no networks. Create Network first.");
+            return;
+        }
+        ManageEnterpriseJPanel manageEnterprise = new ManageEnterpriseJPanel(rightPanel, system);
+        rightPanel.add("manageEnterprise", manageEnterprise);
+        CardLayout layout = (CardLayout) rightPanel.getLayout();
+        layout.next(rightPanel);
+    }//GEN-LAST:event_btnManageEnterpriseActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
@@ -375,6 +393,8 @@ public class OTAWorkArea extends javax.swing.JPanel {
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JScrollPane jScrollPane1;
