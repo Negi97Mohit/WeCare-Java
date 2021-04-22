@@ -9,10 +9,19 @@ package Business.Employee;
  * @author raunak
  */
 public class Employee {
-    
     private String name;
     private int id;
-    private static int count = 1;
+    private String role;
+   
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
+    }
+    private static int count = 101;
 
     public Employee() {
         id = count;

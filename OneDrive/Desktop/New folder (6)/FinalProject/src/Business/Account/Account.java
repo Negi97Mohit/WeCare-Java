@@ -13,7 +13,6 @@ import Business.WorkQueue.WorkQueue;
  * @author raunak
  */
 public class Account {
-    
     private String username;
     private String password;
     private Employee employee;
@@ -61,14 +60,10 @@ public class Account {
     public WorkQueue getWorkQueue() {
         return workQueue;
     }
-
-    
-    
     @Override
     public String toString() {
         return username;
     }
-    
     
     
 }
