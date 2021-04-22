@@ -7,6 +7,7 @@ package Business;
 
 import Business.Network.Network;
 import Business.Organization.Organization;
+import Business.Person.AwarenessEvent;
 import Business.Role.Role;
 import Business.Role.SystemAdminRole;
 import java.util.ArrayList;
@@ -17,21 +18,37 @@ import java.util.ArrayList;
  */
 public class EcoSystem extends Organization{
     
+      
     private static EcoSystem business;
     private ArrayList<Network> networkList;
+    private ArrayList<AwarenessEvent> eventList;
+ 
+    
     public static EcoSystem getInstance(){
         if(business==null){
             business=new EcoSystem();
         }
         return business;
     }
+
+    public ArrayList<AwarenessEvent> getEventList() {
+        return eventList;
+    }
+
     
     public Network createAndAddNetwork(){
         Network network=new Network();
         networkList.add(network);
         return network;
     }
-    @Override
+    
+    public AwarenessEvent createEvent(){
+    
+        AwarenessEvent event = new AwarenessEvent();
+        eventList.add(event);
+        return event;
+    } 
+    
     public ArrayList<Role> getSupportedRole() {
         ArrayList<Role> roleList=new ArrayList<Role>();
         roleList.add(new SystemAdminRole());
@@ -40,6 +57,8 @@ public class EcoSystem extends Organization{
     private EcoSystem(){
         super(null);
         networkList=new ArrayList<Network>();
+        eventList = new ArrayList<AwarenessEvent>();
+        
     }
 
     public ArrayList<Network> getNetworkList() {
@@ -51,12 +70,6 @@ public class EcoSystem extends Organization{
     }
     
     public boolean checkIfUserIsUnique(String userName){
-        if(!this.getUserAccountDirectory().checkIfUsernameIsUnique(userName)){
-            return false;
-        }
-        for(Network network:networkList){
-            
-        }
         return true;
     }
 }

@@ -8,8 +8,8 @@ import Business.EcoSystem;
 import Business.Enterprise.Enterprise;
 import Business.Organization.Organization;
 import Business.Account.Account;
-import userInterface.AdministrativeRole.AdminWorkAreaJPanel;
 import javax.swing.JPanel;
+import userInterface.HospitalAdminWorkSpace.HospitalAdminWorkArea;
 
 /**
  *

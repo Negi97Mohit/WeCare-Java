@@ -5,6 +5,7 @@
  */
 package Business.Organization;
 
+import Business.Role.LabRole;
 import Business.Role.Role;
 import java.util.ArrayList;
 
@@ -12,7 +13,7 @@ import java.util.ArrayList;
  *
  * @author negis
  */
-public class LocalLabOrganization {
+public class LocalLabOrganization extends Organization{
       public LocalLabOrganization() {
         super(Organization.Type.Lab.getValue());
     }

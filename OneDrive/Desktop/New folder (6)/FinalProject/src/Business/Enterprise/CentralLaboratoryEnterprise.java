@@ -12,7 +12,7 @@ import java.util.ArrayList;
  *
  * @author negis
  */
-public class CentralLaboratoryEnterprise {
+public class CentralLaboratoryEnterprise extends Enterprise  {
     
     public CentralLaboratoryEnterprise(String name) {
         super(name, Enterprise.EnterpriseType.Laboratory);

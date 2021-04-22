@@ -5,6 +5,7 @@
  */
 package Business.Organization;
 
+import Business.Enterprise.CentralLaboratoryEnterprise;
 import Business.Role.LabAssistantRole;
 import Business.Role.Role;
 import java.util.ArrayList;
@@ -13,7 +14,7 @@ import java.util.ArrayList;
  *
  * @author negis
  */
-public class ScreeningOrganization {
+public class ScreeningOrganization extends CentralLaboratoryEnterprise {
      public ScreeningOrganization() {
        super(Organization.Type.Screening.getValue());
     }

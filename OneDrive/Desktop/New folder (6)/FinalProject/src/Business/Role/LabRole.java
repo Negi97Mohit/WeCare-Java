@@ -10,12 +10,13 @@ import Business.EcoSystem;
 import Business.Enterprise.Enterprise;
 import Business.Organization.Organization;
 import javax.swing.JPanel;
+import userInterface.LabAssistantRole.LabWorkAreaJPanel;
 
 /**
  *
  * @author negis
  */
-public class LabRole {
+public class LabRole extends Role{
      @Override
     public JPanel createWorkArea(JPanel rightPanel, Account account, Organization organization, Enterprise enterprise, EcoSystem business) {
         return new LabWorkAreaJPanel(rightPanel, account,organization,business);

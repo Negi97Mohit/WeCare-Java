@@ -11,7 +11,7 @@ import java.util.List;
  *
  * @author negis
  */
-public class Donor {
+public class Donor extends Person{
      private String pocName;
     private String pocContact;
     private boolean isOrganAvaiNow;

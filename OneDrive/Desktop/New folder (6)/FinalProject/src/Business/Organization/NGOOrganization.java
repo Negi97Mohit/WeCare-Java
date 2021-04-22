@@ -5,6 +5,7 @@
  */
 package Business.Organization;
 
+import Business.Role.AwarenessRole;
 import Business.Role.Role;
 import java.util.ArrayList;
 
@@ -12,7 +13,7 @@ import java.util.ArrayList;
  *
  * @author negis
  */
-public class NGOOrganization {
+public class NGOOrganization extends Organization{
        public NGOOrganization() {
        super(Organization.Type.NGO.getValue());
     }  

@@ -10,12 +10,13 @@ import Business.EcoSystem;
 import Business.Enterprise.Enterprise;
 import Business.Organization.Organization;
 import javax.swing.JPanel;
+import userInterface.HospitalVisitors.DonorRegistrationForm;
 
 /**
  *
  * @author negis
  */
-public class VisitorRole {
+public class VisitorRole extends Role{
       @Override
     public JPanel createWorkArea(JPanel userProcessContainer, Account account, Organization organization, Enterprise enterprise, EcoSystem business) {
         return new DonorRegistrationForm(userProcessContainer, organization);

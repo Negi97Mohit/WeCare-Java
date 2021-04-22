@@ -5,6 +5,7 @@
  */
 package Business.Organization;
 
+import Business.Enterprise.CentralLaboratoryEnterprise;
 import Business.Role.LabAssistantRole;
 import Business.Role.Role;
 import java.util.ArrayList;
@@ -13,7 +14,7 @@ import java.util.ArrayList;
  *
  * @author negis
  */
-public class RadiologyOrganization {
+public class RadiologyOrganization extends CentralLaboratoryEnterprise {
      public RadiologyOrganization() {
        super(Organization.Type.Radiology.getValue());
     }  

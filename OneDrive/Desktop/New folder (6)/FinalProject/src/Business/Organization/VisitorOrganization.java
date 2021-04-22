@@ -12,7 +12,7 @@ import java.util.ArrayList;
  *
  * @author negis
  */
-public class VisitorOrganization {
+public class VisitorOrganization extends Organization{
      public VisitorOrganization() {
        super(Organization.Type.Visitor.getValue());
     }

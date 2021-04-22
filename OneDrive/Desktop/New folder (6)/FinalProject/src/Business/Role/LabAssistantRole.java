@@ -4,12 +4,13 @@
  */
 package Business.Role;
 
+import Business.Account.Account;
 import Business.EcoSystem;
 import Business.Enterprise.Enterprise;
 import Business.Organization.Organization;
-import Business.Account.Account;
-import userInterface.LabAssistantRole.LabAssistantWorkAreaJPanel;
+import userInterface.LabAssistantRole.LabWorkAreaJPanel;
 import javax.swing.JPanel;
+
 
 /**
  *

@@ -9,7 +9,7 @@ package Business.Person;
  *
  * @author negis
  */
-public class Recipient {
+public class Recipient extends Person implements Comparable<Recipient>{
     private String organ;
     private int priority;
 

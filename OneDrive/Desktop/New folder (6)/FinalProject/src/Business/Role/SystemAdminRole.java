@@ -3,14 +3,12 @@
  * and open the template in the editor.
  */
 package Business.Role;
-
 import Business.EcoSystem;
 import Business.Enterprise.Enterprise;
 import Business.Organization.Organization;
 import Business.Account.Account;
-import userInterface.SystemAdminWorkArea.SystemAdminWorkAreaJPanel;
+import userInterface.AdminWorkSpace.OTAWorkArea;
 import javax.swing.JPanel;
-
 /**
  *
  * @author raunak
