@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="de.yatta.platform.analytics"
+      label="%featureName"
+      version="1.3.61.202012111600"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseUrl">
+      %license
+   </license>
+
+   <url>
+      <update label="Yatta Profiles Update Site" url="http://marketplace.yatta.de/update/profiles"/>
+      <discovery label="Yatta Marketplace Update Site" url="http://marketplace.yatta.de/update"/>
+   </url>
+
+   <plugin
+         id="de.yatta.platform.analytics"
+         os="win32"
+         download-size="36"
+         install-size="64"
+         version="1.3.61.202012111600"
+         unpack="false"/>
+
+   <plugin
+         id="de.yatta.platform.analytics.eclipse"
+         download-size="28"
+         install-size="54"
+         version="1.3.61.202012111600"
+         unpack="false"/>
+
+   <plugin
+         id="de.yatta.platform.commons"
+         download-size="24"
+         install-size="40"
+         version="1.3.61.202012111600"
+         unpack="false"/>
+
+</feature>

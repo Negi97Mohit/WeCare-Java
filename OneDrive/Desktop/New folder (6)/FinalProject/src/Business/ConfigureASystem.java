@@ -1,9 +1,11 @@
 package Business;
 
-import Business.Employee.Employee;
-import Business.Role.SystemAdminRole;
 import Business.Account.Account;
-
+import Business.Employee.Employee;
+import Business.Enterprise.AwarenessCampEnterprise;
+import Business.Network.Network;
+import Business.Organization.DoctorOrganization;
+import Business.Role.SystemAdminRole;   
 /**
  *
  * @author rrheg
@@ -20,6 +22,9 @@ public class ConfigureASystem {
         //have some employees 
         //create user account
         
+        AwarenessCampEnterprise awarenessCampEnterprise=new AwarenessCampEnterprise("NGO");
+        DoctorOrganization doctorOrganization=new DoctorOrganization();
+        Network network = system.createAndAddNetwork();
         
         Employee employee = system.getEmployeeDirectory().createEmployee("sysadmin");
         

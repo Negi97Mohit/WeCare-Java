@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.papyrus.infra.widget.feature"
+      version="3.0.0.202012091059"
+      label="%featureName"
+      provider-name="%providerName">
+   
+   <description url="https://eclipse.org/papyrus/">
+      %description	
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.widgets"
+         download-size="941"
+         install-size="2382"
+         version="4.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.widgets.toolbox"
+         download-size="116"
+         install-size="238"
+         version="3.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.nebula.widgets.richtext"
+         download-size="1453"
+         install-size="3718"
+         version="1.2.0.201703081533"
+         unpack="false"/>
+
+</feature>

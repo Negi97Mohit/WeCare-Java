@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="de.yatta.platform.marketplace.client.wpatch"
+      label="Yatta Marketplace for Eclipse"
+      version="1.3.8.202009170911"
+      provider-name="%providerName">
+
+   <description>
+      Yatta Marketplace for Eclipse with extended MPC
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseUrl">
+      %license
+   </license>
+
+   <url>
+      <update label="Yatta Marketplace Update Site" url="https://marketplace.yatta.de/update/"/>
+   </url>
+
+   <includes
+         id="com.yattasolutions.platform.marketplace.client.feature"
+         version="1.3.8.202009170911"/>
+
+</feature>

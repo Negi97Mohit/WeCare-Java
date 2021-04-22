@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.papyrus.doc.feature"
+      label="%featureName"
+      version="3.1.0.202012091059"
+      provider-name="%providerName">
+
+   <description url="https://eclipse.org/papyrus/">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.papyrus.api.migration.doc"
+         download-size="12"
+         install-size="20"
+         version="2.0.0.202012091059"/>
+         
+   <plugin
+         id="org.eclipse.papyrus.copypaste.ui.doc"
+         download-size="69"
+         install-size="87"
+         version="2.0.0.202012091059"/>
+
+   <plugin
+         id="org.eclipse.papyrus.developer.doc"
+         download-size="12064"
+         install-size="12455"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.dsml.validation.doc"
+         download-size="284"
+         install-size="321"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.emf.expressions.doc"
+         download-size="186"
+         install-size="230"
+         version="2.0.0.202012091059"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.gmfdiag.common.doc"
+         download-size="3122"
+         install-size="4407"
+         version="2.0.0.202012091059"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.gmfdiag.css.doc"
+         download-size="444"
+         install-size="530"
+         version="2.0.0.202012091059"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.internationalization.doc"
+         download-size="183"
+         install-size="224"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.nattable.doc"
+         download-size="5318"
+         install-size="6639"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.newchild.doc"
+         download-size="378"
+         install-size="415"
+         version="2.0.0.202012091059"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.services.controlmode.doc"
+         download-size="634"
+         install-size="677"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.services.decoration.doc"
+         download-size="874"
+         install-size="1148"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.services.navigation.doc"
+         download-size="171"
+         install-size="202"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.architecture.doc"
+         download-size="1115"
+         install-size="1230"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.types.doc"
+         download-size="463"
+         install-size="512"
+         version="4.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.req.reqif.doc"
+         download-size="1265"
+         install-size="1366"
+         version="2.0.0.202012091059"/>
+
+   <plugin
+         id="org.eclipse.papyrus.uml.decoratormodel.doc"
+         download-size="2378"
+         install-size="2494"
+         version="2.0.0.202012091059"/>
+
+   <plugin
+         id="org.eclipse.papyrus.uml.diagram.common.doc"
+         download-size="2104"
+         install-size="2345"
+         version="2.0.0.202012091059"/>
+
+   <plugin
+         id="org.eclipse.papyrus.uml.diagram.profile.doc"
+         download-size="3175"
+         install-size="3302"
+         version="2.0.0.202012091059"/>
+
+   <plugin
+         id="org.eclipse.papyrus.uml.doc"
+         download-size="3573"
+         install-size="47300"
+         version="2.0.0.202012091059"/>
+
+   <plugin
+         id="org.eclipse.papyrus.uml.migration.doc"
+         download-size="33"
+         install-size="107"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.uml.modelrepair.doc"
+         download-size="59"
+         install-size="73"
+         version="2.0.0.202012091059"/>
+
+   <plugin
+         id="org.eclipse.papyrus.uml.profile.assistants.doc"
+         download-size="891"
+         install-size="949"
+         version="2.0.0.202012091059"/>
+
+   <plugin
+         id="org.eclipse.papyrus.uml.profile.customization.doc"
+         download-size="4645"
+         install-size="4786"
+         version="0.7.0.202012091059"/>
+
+   <plugin
+         id="org.eclipse.papyrus.uml.search.ui.doc"
+         download-size="1214"
+         install-size="1283"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.views.properties.doc"
+         download-size="923"
+         install-size="1080"
+         version="2.0.0.202012091059"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.doc"
+         download-size="18"
+         install-size="22"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.aggregate.doc"
+         download-size="89"
+         install-size="102"
+         version="2.0.0.202012091059"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.custom.doc"
+         download-size="155"
+         install-size="198"
+         version="2.0.0.202012091059"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.custom.metamodel.editor.doc"
+         download-size="512"
+         install-size="590"
+         version="2.0.0.202012091059"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.doc"
+         download-size="470"
+         install-size="2074"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.efacet.doc"
+         download-size="333"
+         install-size="382"
+         version="2.0.0.202012091059"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.util.emf.doc"
+         download-size="127"
+         install-size="140"
+         version="2.0.0.202012091059"/>
+
+   <plugin
+         id="org.eclipse.papyrus.toolsmiths.profilemigration.doc"
+         download-size="576"
+         install-size="632"
+         version="1.0.0.202012091059"/>
+
+   <plugin
+         id="org.eclipse.papyrus.views.references.doc"
+         download-size="56"
+         install-size="74"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.views.documentation.doc"
+         download-size="83"
+         install-size="93"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.toolsmiths.architecture.doc"
+         download-size="47"
+         install-size="54"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.toolsmiths.validation.doc"
+         download-size="156"
+         install-size="189"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+   
+   <!--plugin
+         id="org.eclipse.papyrus.doctemplate.doc"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/-->
+
+</feature>

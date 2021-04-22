@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="de.yatta.platform.marketplace.licensing.client.feature"
+      label="%featureName"
+      version="1.3.8.202009170911"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseUrl">
+      %license
+   </license>
+
+   <url>
+      <update label="Yatta Marketplace Update Site" url="https://marketplace.yatta.de/update/"/>
+   </url>
+
+   <requires>
+      <import feature="com.yattasolutions.platform.marketplace.client.feature" version="1.3.8" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="de.yatta.platform.marketplace.licensing.client"
+         download-size="1951"
+         install-size="2212"
+         version="1.3.8.202009170911"
+         unpack="false"/>
+
+</feature>

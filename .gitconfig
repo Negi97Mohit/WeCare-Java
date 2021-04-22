@@ -1,0 +1,20 @@
+[filesystem "Oracle Corporation|15.0.2|-352614899"]
+	timestampResolution = 1032 microseconds
+	minRacyThreshold = 0 nanoseconds
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[user]
+	name = negismohit97
+	email = 78764199+negismohit97@users.noreply.github.com
+[filesystem "Oracle Corporation|11.0.10|-352614899"]
+	timestampResolution = 4007 microseconds
+	minRacyThreshold = 0 nanoseconds
+[filesystem "Oracle Corporation|11.0.10|878803025"]
+	timestampResolution = 1996 microseconds
+	minRacyThreshold = 0 nanoseconds
+[filesystem "Oracle Corporation|15.0.2|878803025"]
+	timestampResolution = 4899 microseconds
+	minRacyThreshold = 0 nanoseconds

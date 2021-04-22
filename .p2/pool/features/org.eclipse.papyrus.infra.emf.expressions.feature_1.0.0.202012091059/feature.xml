@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.papyrus.infra.emf.expressions.feature"
+      version="1.0.0.202012091059"
+      label="%featureName"
+      provider-name="%providerName">
+
+   <description url="https://eclipse.org/papyrus/">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.emf.expressions"
+         download-size="107"
+         install-size="340"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.emf.expressions.edit"
+         download-size="68"
+         install-size="143"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.emf.expressions.editor"
+         download-size="121"
+         install-size="260"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.emf.expressions.properties"
+         download-size="48"
+         install-size="112"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+</feature>

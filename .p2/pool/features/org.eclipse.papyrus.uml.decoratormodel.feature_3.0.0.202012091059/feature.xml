@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.papyrus.uml.decoratormodel.feature"
+      version="3.0.0.202012091059"
+      label="%featureName"
+      provider-name="%providerName">
+   
+   <description url="https://eclipse.org/papyrus/">
+   	  %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.papyrus.uml.decoratormodel"
+         download-size="140"
+         install-size="316"
+         version="3.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.uml.decoratormodel.controlmode"
+         download-size="53"
+         install-size="113"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.uml.decoratormodel.ui"
+         download-size="128"
+         install-size="278"
+         version="3.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.uml.decoratormodel.properties"
+         download-size="69"
+         install-size="121"
+         version="5.0.0.202012091059"
+         unpack="false"/>
+
+</feature>

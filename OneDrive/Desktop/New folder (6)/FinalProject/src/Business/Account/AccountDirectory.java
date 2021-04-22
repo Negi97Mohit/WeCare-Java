@@ -13,7 +13,6 @@ import java.util.ArrayList;
  * @author raunak
  */
 public class AccountDirectory {
-    
     private ArrayList<Account> accountList;
 
     public AccountDirectory() {

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yattasolutions.ecore"
+      label="UML Lab EMF/Ecore Editor"
+      version="1.22.0.202012081101"
+      provider-name="%providerName"
+      plugin="com.yattasolutions.umllab.branding">
+
+   <description>
+      UML Lab Editors ans support for EMF/Ecore modeling
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseUrl">
+      %license
+   </license>
+
+   <url>
+      <update label="UML Lab Update Site" url="http://update.uml-lab.com/"/>
+   </url>
+
+   <plugin
+         id="com.yattasolutions.ecore.ui"
+         download-size="116"
+         install-size="247"
+         version="1.22.0.202012081101"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.codegen.common"
+         download-size="15"
+         install-size="30"
+         version="1.22.0.202012081101"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.codegen.common.ui"
+         download-size="23"
+         install-size="44"
+         version="1.22.0.202012081101"
+         unpack="false"/>
+
+</feature>
