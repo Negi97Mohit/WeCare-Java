@@ -13,16 +13,18 @@ import Business.Organization.OrganizationDirectory;
  * @author MyPC1
  */
 public abstract class Enterprise extends Organization{
-    
+   
     private EnterpriseType enterpriseType;
     private OrganizationDirectory organizationDirectory;
-
+    
     public OrganizationDirectory getOrganizationDirectory() {
         return organizationDirectory;
     }
-    
+
     public enum EnterpriseType{
-        Hospital("Hospital");
+        Hospital("Hospital"),
+        Awareness("Awareness Camp"),
+        Laboratory("Central Laboratory");
         
         private String value;
         
@@ -37,6 +39,40 @@ public abstract class Enterprise extends Organization{
         return value;
     }
     }
+   //added 
+    public enum Type{
+        Laboratory("Central Laboratory"),Screening("Screening Organization"),Radiology("Radiology Organization");
+        private String value;
+        private Type(String value) {
+            this.value = value;
+        }
+        public String getValue() {
+            return value;
+        }
+    }
+    
+    //added
+    public enum EnumType{
+        Hospital("Hospital"), Doctor("Doctor Organization"), Lab("Lab Organization"), Visitor("Visitor Organization");
+        private String value;
+        private EnumType(String value) {
+            this.value = value;
+        }
+        public String getValue() {
+            return value;
+        }
+    }
+    
+    public enum EnumType1{
+        Awareness("Awareness Camp"), NGO("NGO");
+        private String value;
+        private EnumType1(String value) {
+            this.value = value;
+        }
+        public String getValue() {
+            return value;
+        }
+    }
 
     public EnterpriseType getEnterpriseType() {
         return enterpriseType;
@@ -45,6 +81,7 @@ public abstract class Enterprise extends Organization{
     public void setEnterpriseType(EnterpriseType enterpriseType) {
         this.enterpriseType = enterpriseType;
     }
+
     
     public Enterprise(String name,EnterpriseType type){
         super(name);

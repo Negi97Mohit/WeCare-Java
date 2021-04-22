@@ -3,22 +3,25 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Business.Enterprise;
+package Business.Organization;
 
 import Business.Role.Role;
 import java.util.ArrayList;
 
 /**
  *
- * @author MyPC1
+ * @author negis
  */
-public class HospitalEnterprise extends Enterprise {
-    
-  public HospitalEnterprise(String name) {
-        super(name, Enterprise.EnterpriseType.Hospital);
+public class LocalLabOrganization {
+      public LocalLabOrganization() {
+        super(Organization.Type.Lab.getValue());
     }
+    
     @Override
     public ArrayList<Role> getSupportedRole() {
-        return null;
+        ArrayList<Role> roles = new ArrayList();
+        roles.add(new LabRole());
+        return roles;
     }
+     
 }

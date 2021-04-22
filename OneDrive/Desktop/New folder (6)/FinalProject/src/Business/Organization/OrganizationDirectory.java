@@ -12,7 +12,7 @@ import java.util.ArrayList;
  * @author raunak
  */
 public class OrganizationDirectory {
-    
+      
     private ArrayList<Organization> organizationList;
 
     public OrganizationDirectory() {
@@ -29,10 +29,31 @@ public class OrganizationDirectory {
             organization = new DoctorOrganization();
             organizationList.add(organization);
         }
+        
         else if (type.getValue().equals(Type.Lab.getValue())){
-            organization = new LabOrganization();
+            organization = new LocalLabOrganization();
             organizationList.add(organization);
         }
+        else if (type.getValue().equals(Type.Visitor.getValue())){
+            organization = new VisitorOrganization();
+            organizationList.add(organization);
+        }
+       
+        
+        else if (type.getValue().equals(Type.Screening.getValue())){
+            organization = new ScreeningOrganization();
+            organizationList.add(organization);
+        }
+         else if (type.getValue().equals(Type.Radiology.getValue())){
+            organization = new RadiologyOrganization();
+            organizationList.add(organization);
+        }
+        
+        else if (type.getValue().equals(Type.NGO.getValue())){
+            organization = new NGOOrganization();
+            organizationList.add(organization);
+        }
+        
         return organization;
     }
 }

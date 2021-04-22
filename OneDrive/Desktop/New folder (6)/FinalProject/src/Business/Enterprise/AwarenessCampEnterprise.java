@@ -10,15 +10,16 @@ import java.util.ArrayList;
 
 /**
  *
- * @author MyPC1
+ * @author negis
  */
-public class HospitalEnterprise extends Enterprise {
+public class AwarenessCampEnterprise {
     
-  public HospitalEnterprise(String name) {
-        super(name, Enterprise.EnterpriseType.Hospital);
+    public AwarenessCampEnterprise(String name) {
+        super(name, Enterprise.EnterpriseType.Awareness);
     }
     @Override
     public ArrayList<Role> getSupportedRole() {
         return null;
     }
+   
 }
