@@ -49,26 +49,32 @@ public class ManageOrganMatchJPanel extends javax.swing.JPanel {
         matchByDonor = new javax.swing.JButton();
         matchByRecipientBtn = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(0, 153, 153));
+        setBackground(new java.awt.Color(255, 255, 255));
 
-        matchByDonor.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
-        matchByDonor.setText("Match Organ by Donor availability");
+        matchByDonor.setBackground(new java.awt.Color(204, 51, 0));
+        matchByDonor.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        matchByDonor.setForeground(new java.awt.Color(255, 255, 255));
+        matchByDonor.setText("Match Organ by Donor Availability");
         matchByDonor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 matchByDonorActionPerformed(evt);
             }
         });
 
-        matchByRecipientBtn.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
-        matchByRecipientBtn.setText("Match Organ by Recipient severity");
+        matchByRecipientBtn.setBackground(new java.awt.Color(204, 51, 0));
+        matchByRecipientBtn.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        matchByRecipientBtn.setForeground(new java.awt.Color(255, 255, 255));
+        matchByRecipientBtn.setText("Match Organ by Recipient Severity");
         matchByRecipientBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 matchByRecipientBtnActionPerformed(evt);
             }
         });
 
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userInterface/Images/IMAGES/back.jpg"))); // NOI18N
+        jButton3.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        jButton3.setText("BACK");
         jButton3.setToolTipText("");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -76,31 +82,44 @@ public class ManageOrganMatchJPanel extends javax.swing.JPanel {
             }
         });
 
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Screenshot 2021-04-22 014038.png"))); // NOI18N
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(matchByDonor)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 197, Short.MAX_VALUE)
-                .addComponent(matchByRecipientBtn)
-                .addGap(285, 285, 285))
-            .addGroup(layout.createSequentialGroup()
-                .addGap(70, 70, 70)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(47, 47, 47))
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(111, 111, 111)
+                        .addComponent(matchByDonor)
+                        .addGap(93, 93, 93)
+                        .addComponent(matchByRecipientBtn))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(17, 17, 17)
+                        .addComponent(jLabel1)))
+                .addContainerGap(32, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(110, 110, 110)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(matchByDonor)
-                    .addComponent(matchByRecipientBtn))
-                .addGap(109, 109, 109)
-                .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addGap(31, 31, 31)
+                .addComponent(jButton3)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel1)
+                        .addContainerGap(192, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(matchByDonor)
+                            .addComponent(matchByRecipientBtn))
+                        .addGap(92, 92, 92))))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -139,6 +158,7 @@ public class ManageOrganMatchJPanel extends javax.swing.JPanel {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton3;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JButton matchByDonor;
     private javax.swing.JButton matchByRecipientBtn;
     // End of variables declaration//GEN-END:variables

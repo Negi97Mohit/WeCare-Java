@@ -168,7 +168,7 @@ public class OTAWorkArea extends javax.swing.JPanel {
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 555, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 831, Short.MAX_VALUE))
+                .addGap(0, 847, Short.MAX_VALUE))
         );
 
         jSplitPane2.setLeftComponent(jPanel3);
@@ -223,9 +223,11 @@ public class OTAWorkArea extends javax.swing.JPanel {
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/sysadmin.jpg"))); // NOI18N
 
-        jLabel3.setFont(new java.awt.Font("SansSerif", 0, 24)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(153, 0, 0));
-        jLabel3.setText("SYSTEM ADMIN WORK AREA");
+        jLabel3.setBackground(new java.awt.Color(204, 51, 0));
+        jLabel3.setFont(new java.awt.Font("SansSerif", 1, 24)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setText(" SYSTEM ADMIN WORK AREA ");
+        jLabel3.setOpaque(true);
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -262,23 +264,23 @@ public class OTAWorkArea extends javax.swing.JPanel {
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblSelectedNode)
                     .addComponent(jLabel1)
-                    .addComponent(jLabel3))
+                    .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(80, 80, 80)
                 .addComponent(btnManageNetwork)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addGap(48, 48, 48)
+                        .addGap(41, 41, 41)
                         .addComponent(btnManageEnterprise)
-                        .addGap(55, 55, 55)
+                        .addGap(40, 40, 40)
                         .addComponent(btnManageAdmin)
-                        .addGap(46, 46, 46)
+                        .addGap(44, 44, 44)
                         .addComponent(jButton1)
-                        .addGap(54, 54, 54)
+                        .addGap(41, 41, 41)
                         .addComponent(jButton2))
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addGap(22, 22, 22)
                         .addComponent(jLabel2)))
-                .addContainerGap(922, Short.MAX_VALUE))
+                .addContainerGap(945, Short.MAX_VALUE))
         );
 
         jSplitPane2.setRightComponent(jPanel4);

@@ -81,14 +81,12 @@ public class DoctorActivityJPanel extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         workRequestJTable = new javax.swing.JTable();
         backJButton = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
         priorityBx = new javax.swing.JComboBox();
         jButton1 = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(0, 153, 153));
+        setBackground(new java.awt.Color(255, 255, 255));
 
-        refreshTestJButton.setBackground(new java.awt.Color(204, 255, 255));
-        refreshTestJButton.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
+        refreshTestJButton.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         refreshTestJButton.setText("Refresh");
         refreshTestJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -96,8 +94,7 @@ public class DoctorActivityJPanel extends javax.swing.JPanel {
             }
         });
 
-        requestTestJButton.setBackground(new java.awt.Color(0, 0, 0));
-        requestTestJButton.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
+        requestTestJButton.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         requestTestJButton.setText("Request Test");
         requestTestJButton.setEnabled(false);
         requestTestJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -142,19 +139,18 @@ public class DoctorActivityJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(workRequestJTable);
 
-        backJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userInterface/Images/IMAGES/back.jpg"))); // NOI18N
+        backJButton.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        backJButton.setText("BACK");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 backJButtonActionPerformed(evt);
             }
         });
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userInterface/Images/IMAGES/CRO_health_OfficeVisit_04-14.jpg"))); // NOI18N
-
         priorityBx.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
         priorityBx.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "1- High", "2- Medium", "3- Low" }));
 
-        jButton1.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
+        jButton1.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         jButton1.setText("Set Priority");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -170,9 +166,7 @@ public class DoctorActivityJPanel extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(backJButton, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(254, 254, 254)
-                        .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 843, Short.MAX_VALUE))
+                        .addComponent(backJButton, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(21, 21, 21)
                         .addComponent(enterpriseLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -185,7 +179,7 @@ public class DoctorActivityJPanel extends javax.swing.JPanel {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(priorityBx, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jButton1))))
-                .addContainerGap())
+                .addContainerGap(431, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(requestTestJButton)
@@ -214,10 +208,8 @@ public class DoctorActivityJPanel extends javax.swing.JPanel {
                     .addComponent(requestTestJButton)
                     .addComponent(refreshTestJButton))
                 .addGap(52, 52, 52)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 330, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(backJButton, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(229, Short.MAX_VALUE))
+                .addComponent(backJButton, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(527, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -286,7 +278,6 @@ public class DoctorActivityJPanel extends javax.swing.JPanel {
     private javax.swing.JButton backJButton;
     private javax.swing.JLabel enterpriseLabel;
     private javax.swing.JButton jButton1;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JComboBox priorityBx;
     private javax.swing.JButton refreshTestJButton;
