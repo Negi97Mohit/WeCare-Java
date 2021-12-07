@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.papyrus.infra.feature"
+      version="3.0.0.202012091059"
+      label="Papyrus infra"
+      provider-name="Eclipse Modeling Project">
+   
+   <description url="https://eclipse.org/papyrus/">
+	  %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+   
+   
+   <includes
+         id="org.eclipse.papyrus.infra.core.feature"
+         version="3.0.0.202012091059"/>
+
+   <includes
+         id="org.eclipse.papyrus.infra.gmfdiag.feature"
+         version="3.0.0.202012091059"/>
+
+   <includes
+         id="org.eclipse.papyrus.infra.services.feature"
+         version="3.0.0.202012091059"/>
+
+   <includes
+         id="org.eclipse.papyrus.infra.ui.feature"
+         version="3.0.0.202012091059"/>
+
+   <includes
+         id="org.eclipse.papyrus.infra.widget.feature"
+         version="3.0.0.202012091059"/>
+
+   <includes
+         id="org.eclipse.papyrus.infra.internationalization.feature"
+         version="1.0.0.202012091059"/>
+
+   <includes
+         id="org.eclipse.papyrus.infra.emf.feature"
+         version="3.0.0.202012091059"/>
+
+   <includes
+         id="org.eclipse.papyrus.infra.nattable.feature"
+         version="4.0.0.202012091059"/>
+
+   <includes
+         id="org.eclipse.papyrus.infra.gmfdiag.css.feature"
+         version="3.0.0.202012091059"/>
+
+   <includes
+         id="org.eclipse.papyrus.infra.viewpoints.feature"
+         version="3.0.0.202012091059"/>
+
+   <includes
+         id="org.eclipse.papyrus.infra.architecture.feature"
+         version="1.0.0.202012091059"/>
+
+   <includes
+         id="org.eclipse.papyrus.infra.emf.expressions.feature"
+         version="1.0.0.202012091059"/>
+   
+   
+
+   <plugin
+         id="org.eclipse.papyrus.infra.onefile"
+         download-size="38"
+         install-size="69"
+         version="3.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.constraints"
+         download-size="85"
+         install-size="175"
+         version="3.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.constraints.edit"
+         download-size="42"
+         install-size="79"
+         version="3.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.constraints.editor"
+         download-size="138"
+         install-size="288"
+         version="3.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.hyperlink"
+         download-size="120"
+         install-size="247"
+         version="4.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.doc"
+         download-size="18"
+         install-size="22"
+         version="2.0.0.202012091059"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.psf"
+         download-size="37"
+         install-size="68"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.newchild"
+         download-size="69"
+         install-size="186"
+         version="5.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.newchild.edit"
+         download-size="30"
+         install-size="52"
+         version="5.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.sync"
+         download-size="107"
+         install-size="235"
+         version="3.0.0.202012091059"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.types"
+         download-size="92"
+         install-size="344"
+         version="5.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.types.core"
+         download-size="105"
+         install-size="235"
+         version="5.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.types.edit"
+         download-size="60"
+         install-size="117"
+         version="5.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.types.rulebased"
+         download-size="92"
+         install-size="166"
+         version="5.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.filters"
+         download-size="49"
+         install-size="104"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.filters.edit"
+         download-size="26"
+         install-size="49"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.properties"
+         download-size="162"
+         install-size="383"
+         version="4.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.properties.edit"
+         download-size="135"
+         install-size="242"
+         version="4.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.infra.properties.editor"
+         download-size="202"
+         install-size="425"
+         version="4.0.0.202012091059"
+         unpack="false"/>
+
+</feature>

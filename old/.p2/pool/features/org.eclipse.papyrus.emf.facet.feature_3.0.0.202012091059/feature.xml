@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.papyrus.emf.facet.feature"
+      version="3.0.0.202012091059"
+      label="%featureName"
+      provider-name="%providerName">
+   
+   <description url="https://eclipse.org/papyrus/">
+   	  %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.common.core"
+         download-size="16"
+         install-size="21"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.common.sdk.core"
+         download-size="29"
+         install-size="52"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.common.ui"
+         download-size="44"
+         install-size="76"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.custom.core"
+         download-size="39"
+         install-size="78"
+         version="4.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.custom.metamodel"
+         download-size="105"
+         install-size="252"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.custom.metamodel.edit"
+         download-size="38"
+         install-size="63"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.custom.metamodel.editor"
+         download-size="152"
+         install-size="299"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.custom.sdk.core"
+         download-size="24"
+         install-size="42"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.custom.sdk.ui"
+         download-size="118"
+         install-size="252"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.custom.ui"
+         download-size="158"
+         install-size="371"
+         version="4.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.efacet"
+         download-size="93"
+         install-size="272"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.efacet.catalog"
+         download-size="31"
+         install-size="57"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.efacet.core"
+         download-size="155"
+         install-size="381"
+         version="3.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.efacet.edit"
+         download-size="80"
+         install-size="165"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.efacet.editor"
+         download-size="52"
+         install-size="104"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.efacet.metamodel"
+         download-size="461"
+         install-size="945"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.efacet.metamodel.edit"
+         download-size="221"
+         install-size="366"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.efacet.sdk.ui"
+         download-size="369"
+         install-size="847"
+         version="3.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.efacet.ui"
+         download-size="286"
+         install-size="602"
+         version="4.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.query.java"
+         download-size="25"
+         install-size="43"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.query.java.core"
+         download-size="30"
+         install-size="51"
+         version="3.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.query.java.metamodel"
+         download-size="28"
+         install-size="48"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.query.java.sdk.ui"
+         download-size="43"
+         install-size="80"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.query.ocl.core"
+         download-size="18"
+         install-size="31"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.query.ocl.metamodel"
+         download-size="26"
+         install-size="42"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.query.ocl.sdk.ui"
+         download-size="32"
+         install-size="51"
+         version="3.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.util.core"
+         download-size="31"
+         install-size="49"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.util.emf.catalog"
+         download-size="26"
+         install-size="44"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.util.emf.core"
+         download-size="72"
+         install-size="138"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.util.emf.ui"
+         download-size="112"
+         install-size="212"
+         version="3.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.util.jface.ui"
+         download-size="16"
+         install-size="21"
+         version="3.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.util.pde.core"
+         download-size="38"
+         install-size="68"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.util.swt"
+         download-size="26"
+         install-size="36"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.util.ui"
+         download-size="190"
+         install-size="380"
+         version="3.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.widgets"
+         download-size="39"
+         install-size="57"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.widgets.celleditors"
+         download-size="160"
+         install-size="336"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.widgets.celleditors.ecore"
+         download-size="107"
+         install-size="212"
+         version="2.0.0.202012091059"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.architecture"
+         download-size="66"
+         install-size="157"
+         version="1.0.0.202012091059"
+         unpack="false"/>
+         
+   <plugin
+         id="org.eclipse.papyrus.emf.facet.architecture.edit"
+         download-size="34"
+         install-size="70"
+         version="1.0.0.202012091059"
+         unpack="false"/>
+
+</feature>

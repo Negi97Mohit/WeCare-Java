@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Built-By: jenkins
+Created-By: Apache Maven 3.6.0
+Build-Jdk: 1.8.0_121
+
+Name: p2.inf
+SHA-256-Digest: lRPkHBLOVBBCniFvogxS4vZwq822HlGm4O8nxkMjGm0=
+
+Name: feature.xml
+SHA-256-Digest: CbULjqSqrbWlpGWcZWAsPlCKzkqDhvzAv2eqH4Uba9E=
+
+Name: feature.properties
+SHA-256-Digest: oOZ16DqG5QkKjwNvgYFtHdMPdKotq/+NziGFHgV7kmI=
+

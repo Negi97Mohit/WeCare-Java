@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yattasolutions.mylyn.classdiagram"
+      label="UML Lab Mylyn Integration for Class Diagrams"
+      version="1.22.0.202012081101"
+      provider-name="%providerName">
+
+   <description>
+      UML Lab Mylyn Integration for Class Diagrams
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseUrl">
+      %license
+   </license>
+
+   <url>
+      <update label="UML Lab Update Site" url="http://update.uml-lab.com/"/>
+      <discovery label="Mylyn for Eclipse" url="http://download.eclipse.org/mylyn/releases/latest"/>
+   </url>
+
+   <requires>
+      <import feature="org.eclipse.mylyn.mft.emf" version="0.9.0" match="compatible"/>
+      <import feature="com.yattasolutions.diagrams.classdiagram" version="1.22.0" match="equivalent"/>
+   </requires>
+
+   <plugin
+         id="com.yattasolutions.diagrams.classdiagram.mylyn"
+         download-size="72"
+         install-size="149"
+         version="1.22.0.202012081101"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.mylyn.core"
+         download-size="19"
+         install-size="39"
+         version="1.22.0.202012081101"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.mylyn.linking"
+         download-size="31"
+         install-size="66"
+         version="1.22.0.202012081101"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.mylyn.ui"
+         download-size="9"
+         install-size="17"
+         version="1.22.0.202012081101"
+         unpack="false"/>
+
+</feature>

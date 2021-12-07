@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="228eec4b-11ed-4613-9e3c-6dcc0c33ccd2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/OneDrive/Desktop/FinalProject/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OneDrive/Desktop/FinalProject/.idea/ant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OneDrive/Desktop/FinalProject/.idea/libraries/FinalProject.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OneDrive/Desktop/FinalProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OneDrive/Desktop/FinalProject/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OneDrive/Desktop/FinalProject/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OneDrive/Desktop/FinalProject/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OneDrive/Desktop/FinalProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OneDrive/Desktop/FinalProject/FinalProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OneDrive/Desktop/New folder (7)/haircutter1-hair-cutter-88a5c3b68dca/TakeOutSystem-Final/Data.db4o" beforeDir="false" afterPath="$PROJECT_DIR$/OneDrive/Desktop/New folder (7)/haircutter1-hair-cutter-88a5c3b68dca/TakeOutSystem-Final/Data.db4o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OneDrive/Desktop/New folder (7)/haircutter1-hair-cutter-88a5c3b68dca/TakeOutSystem-Final/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OneDrive/Desktop/New folder (7)/haircutter1-hair-cutter-88a5c3b68dca/TakeOutSystem-Final/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OneDrive/Desktop/New folder (7)/haircutter1-hair-cutter-88a5c3b68dca/TakeOutSystem-Final/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/OneDrive/Desktop/New folder (7)/haircutter1-hair-cutter-88a5c3b68dca/TakeOutSystem-Final/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OneDrive/Desktop/New folder (7)/haircutter1-hair-cutter-88a5c3b68dca/TakeOutSystem-Final/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/OneDrive/Desktop/New folder (7)/haircutter1-hair-cutter-88a5c3b68dca/TakeOutSystem-Final/nbproject/project.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="21y8jUTPAayk2FURaqXQyVvZlsb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="228eec4b-11ed-4613-9e3c-6dcc0c33ccd2" name="Changes" comment="" />
+      <created>1638902103562</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638902103562</updated>
+    </task>
+    <servers />
+  </component>
+</project>
